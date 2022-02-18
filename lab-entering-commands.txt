@@ -16,7 +16,48 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Documents/
+ Downloads/
+ eclipse/
+ eclipse-workspace/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ MTEC/
+ Music/
+'My Documents'@
+ MyFirstGame/
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf
+ NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ PaceKeyChain
+ PrintHood@
+ Recent@
+'Rough Draft'/
+'Rough Draft 2'/
+'Rough Draft1'/
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+'Unity Coding'/
+ Videos/
 
 
 ==========
@@ -26,19 +67,21 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
+After typing 'D' and then pressing the Tab Key, this appears:
+$ ls Do
+
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
+Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: cannot access 'Do': No such file or directory
 
 
 ==========
@@ -49,7 +92,9 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+'My Music'@
+'My Pictures'@
+'My Videos'@
 
 ==========
 4.  Type:
@@ -59,7 +104,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+ ./   'My Music'@     'My Videos'@
+ ../  'My Pictures'@
 
 ==========
 5.  Type:
@@ -69,7 +115,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+This command was repeated: $ ls -a Documents
 
 ==========
 6.  Type:
@@ -79,7 +125,8 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+This command was repeated: $ ls Do
+This is what previously happened when I typed "$ ls D<TAB>"
 
 ==========
 7.  Type:
@@ -89,7 +136,416 @@ $ ls /b<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+$  ls /bin/
+'[.exe'*
+ addgnupghome*
+ applygnupgdefaults*
+ arch.exe*
+ astextplain*
+ autopoint*
+ awk.exe*
+ b2sum.exe*
+ backup*
+ base32.exe*
+ base64.exe*
+ basename.exe*
+ basenc.exe*
+ bash.exe*
+ bashbug*
+ bunzip2.exe*
+ bzcat.exe*
+ bzcmp*
+ bzdiff*
+ bzegrep*
+ bzfgrep*
+ bzgrep*
+ bzip2.exe*
+ bzip2recover.exe*
+ bzless*
+ bzmore*
+ c_rehash*
+ captoinfo.exe*
+ cat.exe*
+ chattr.exe*
+ chcon.exe*
+ chgrp.exe*
+ chmod.exe*
+ chown.exe*
+ chroot.exe*
+ cksum.exe*
+ clear.exe*
+ cmp.exe*
+ column.exe*
+ comm.exe*
+ core_perl/
+ cp.exe*
+ csplit.exe*
+ cut.exe*
+ cygcheck.exe*
+ cygpath.exe*
+ cygwin-console-helper.exe*
+ d2u.exe*
+ dash.exe*
+ date.exe*
+ dd.exe*
+ df.exe*
+ diff.exe*
+ diff3.exe*
+ dir.exe*
+ dircolors.exe*
+ dirmngr.exe*
+ dirmngr-client.exe*
+ dirname.exe*
+ docx2txt*
+ docx2txt.pl*
+ dos2unix.exe*
+ du.exe*
+ dumpsexp.exe*
+ echo.exe*
+ egrep*
+ env.exe*
+ envsubst.exe*
+ ex.exe*
+ expand.exe*
+ expr.exe*
+ factor.exe*
+ false.exe*
+ fgrep*
+ fido2-assert.exe*
+ fido2-cred.exe*
+ fido2-token.exe*
+ file.exe*
+ find.exe*
+ findssl.sh*
+ fmt.exe*
+ fold.exe*
+ funzip.exe*
+ gapplication.exe*
+ gawk.exe*
+ gawk-5.0.0.exe*
+ gdbus.exe*
+ gencat.exe*
+ getconf.exe*
+ getemojis*
+ getfacl.exe*
+ getopt.exe*
+ gettext.exe*
+ gettext.sh*
+ gettextize*
+ gio-querymodules.exe*
+ git-flow*
+ git-flow-bugfix
+ gitflow-common
+ git-flow-config
+ git-flow-feature
+ git-flow-hotfix
+ git-flow-init
+ git-flow-log
+ git-flow-release
+ gitflow-shFlags
+ git-flow-support
+ git-flow-version
+ gkill.exe*
+ glib-compile-schemas.exe*
+ gmondump.exe*
+ gobject-query.exe*
+ gpg.exe*
+ gpg-agent.exe*
+ gpgconf.exe*
+ gpg-connect-agent.exe*
+ gpg-error.exe*
+ gpgparsemail.exe*
+ gpgscm.exe*
+ gpgsm.exe*
+ gpgsplit.exe*
+ gpgtar.exe*
+ gpgv.exe*
+ gpg-wks-server.exe*
+ grep.exe*
+ groups.exe*
+ gsettings.exe*
+ gunzip*
+ gzexe*
+ gzip.exe*
+ head.exe*
+ hmac256.exe*
+ hostid.exe*
+ hostname.exe*
+ iconv.exe*
+ id.exe*
+ infocmp.exe*
+ infotocap.exe*
+ install.exe*
+ join.exe*
+ kbxutil.exe*
+ kill.exe*
+ ldd.exe*
+ ldh.exe*
+ less.exe*
+ lessecho.exe*
+ lesskey.exe*
+ link.exe*
+ ln.exe*
+ locale.exe*
+ locate.exe*
+ logname.exe*
+ ls.exe*
+ lsattr.exe*
+ mac2unix.exe*
+ md5sum.exe*
+ minidumper.exe*
+ mintheme*
+ mintty.exe*
+ mkdir.exe*
+ mkfifo.exe*
+ mkgroup.exe*
+ mknod.exe*
+ mkpasswd.exe*
+ mktemp.exe*
+ mount.exe*
+ mpicalc.exe*
+ msgattrib.exe*
+ msgcat.exe*
+ msgcmp.exe*
+ msgcomm.exe*
+ msgconv.exe*
+ msgen.exe*
+ msgexec.exe*
+ msgfilter.exe*
+ msgfmt.exe*
+ msggrep.exe*
+ msginit.exe*
+ msgmerge.exe*
+ msgunfmt.exe*
+ msguniq.exe*
+ msys-2.0.dll*
+ msys-apr-1-0.dll*
+ msys-aprutil-1-0.dll*
+ msys-asn1-8.dll*
+ msys-assuan-0.dll*
+ msys-bz2-1.dll*
+ msys-cbor-0.8.dll*
+ msys-com_err-1.dll*
+ msys-crypt-0.dll*
+ msys-crypto-1.1.dll*
+ msys-edit-0.dll*
+ msys-expat-1.dll*
+ msys-ffi-7.dll*
+ msys-fido2-1.dll*
+ msys-gcc_s-seh-1.dll*
+ msys-gcrypt-20.dll*
+ msys-gettextlib-0-21.dll*
+ msys-gettextsrc-0-21.dll*
+ msys-gio-2.0-0.dll*
+ msys-glib-2.0-0.dll*
+ msys-gmodule-2.0-0.dll*
+ msys-gmp-10.dll*
+ msys-gnutls-30.dll*
+ msys-gobject-2.0-0.dll*
+ msys-gpg-error-0.dll*
+ msys-gssapi-3.dll*
+ msys-hcrypto-4.dll*
+ msys-heimbase-1.dll*
+ msys-heimntlm-0.dll*
+ msys-hogweed-6.dll*
+ msys-hx509-5.dll*
+ msys-iconv-2.dll*
+ msys-idn2-0.dll*
+ msys-intl-8.dll*
+ msys-kafs-0.dll*
+ msys-krb5-26.dll*
+ msys-ksba-8.dll*
+ msys-lz4-1.dll*
+ msys-magic-1.dll*
+ msys-mpfr-6.dll*
+ msys-ncursesw6.dll*
+ msys-nettle-8.dll*
+ msys-npth-0.dll*
+ msys-p11-kit-0.dll*
+ msys-pcre-1.dll*
+ msys-perl5_34.dll*
+ msys-psl-5.dll*
+ msys-readline8.dll*
+ msys-roken-18.dll*
+ msys-sasl2-3.dll*
+ msys-serf-1-0.dll*
+ msys-smartcols-1.dll*
+ msys-sqlite3-0.dll*
+ msys-ssl-1.1.dll*
+ msys-svn_client-1-0.dll*
+ msys-svn_delta-1-0.dll*
+ msys-svn_diff-1-0.dll*
+ msys-svn_fs_fs-1-0.dll*
+ msys-svn_fs_util-1-0.dll*
+ msys-svn_fs_x-1-0.dll*
+ msys-svn_fs-1-0.dll*
+ msys-svn_ra_local-1-0.dll*
+ msys-svn_ra_serf-1-0.dll*
+ msys-svn_ra_svn-1-0.dll*
+ msys-svn_ra-1-0.dll*
+ msys-svn_repos-1-0.dll*
+ msys-svn_subr-1-0.dll*
+ msys-svn_swig_perl-1-0.dll*
+ msys-svn_wc-1-0.dll*
+ msys-tasn1-6.dll*
+ msys-ticw6.dll*
+ msys-unistring-2.dll*
+ msys-uuid-1.dll*
+ msys-wind-0.dll*
+ msys-z.dll*
+ mv.exe*
+ nano.exe*
+ nettle-hash.exe*
+ nettle-lfib-stream.exe*
+ nettle-pbkdf2.exe*
+ ngettext.exe*
+ nice.exe*
+ nl.exe*
+ nohup.exe*
+ notepad*
+ nproc.exe*
+ numfmt.exe*
+ od.exe*
+ openssl.exe*
+ p11-kit.exe*
+ passwd.exe*
+ paste.exe*
+ patch.exe*
+ pathchk.exe*
+ perl.exe*
+ perl5.34.0.exe*
+ pinentry.exe*
+ pinentry-w32.exe*
+ pinky.exe*
+ pkcs1-conv.exe*
+ pldd.exe*
+ pluginviewer.exe*
+ pr.exe*
+ printenv.exe*
+ printf.exe*
+ profiler.exe*
+ ps.exe*
+ psl.exe*
+ psl-make-dafsa*
+ ptx.exe*
+ pwd.exe*
+ readlink.exe*
+ realpath.exe*
+ rebase.exe*
+ rebaseall*
+ recode-sr-latin.exe*
+ regtool.exe*
+ reset.exe*
+ restore*
+ rm.exe*
+ rmdir.exe*
+ rnano.exe*
+ runcon.exe*
+ rview.exe*
+ rvim.exe*
+ scp.exe*
+ sdiff.exe*
+ sed.exe*
+ seq.exe*
+ setfacl.exe*
+ setmetamode.exe*
+ sexp-conv.exe*
+ sftp.exe*
+ sh.exe*
+ sha1sum.exe*
+ sha224sum.exe*
+ sha256sum.exe*
+ sha384sum.exe*
+ sha512sum.exe*
+ shred.exe*
+ shuf.exe*
+ sleep.exe*
+ sort.exe*
+ split.exe*
+ ssh.exe*
+ ssh-add.exe*
+ ssh-agent.exe*
+ ssh-copy-id*
+ sshd.exe*
+ ssh-keygen.exe*
+ ssh-keyscan.exe*
+ ssh-pageant.exe*
+ ssp.exe*
+ start*
+ stat.exe*
+ stdbuf.exe*
+ strace.exe*
+ stty.exe*
+ sum.exe*
+ sync.exe*
+ tabs.exe*
+ tac.exe*
+ tail.exe*
+ tar.exe*
+ tee.exe*
+ test.exe*
+ tic.exe*
+ tig.exe*
+ timeout.exe*
+ toe.exe*
+ touch.exe*
+ tput.exe*
+ tr.exe*
+ true.exe*
+ truncate.exe*
+ trust.exe*
+ tset.exe*
+ tsort.exe*
+ tty.exe*
+ tzset.exe*
+ u2d.exe*
+ umount.exe*
+ uname.exe*
+ uncompress*
+ unexpand.exe*
+ uniq.exe*
+ unix2dos.exe*
+ unix2mac.exe*
+ unlink.exe*
+ unzip.exe*
+ unzipsfx.exe*
+ update-ca-trust*
+ updatedb*
+ users.exe*
+ vdir.exe*
+ vendor_perl/
+ vi*
+ view.exe*
+ vim.exe*
+ vimdiff.exe*
+ vimtutor*
+ watchgnupg.exe*
+ wc.exe*
+ which.exe*
+ who.exe*
+ whoami.exe*
+ winpty.dll*
+ winpty.exe*
+ winpty-agent.exe*
+ winpty-debugserver.exe*
+ wordpad*
+ xargs.exe*
+ xgettext.exe*
+ xxd.exe*
+ yat2m.exe*
+ yes.exe*
+ zcat*
+ zcmp*
+ zdiff*
+ zegrep*
+ zfgrep*
+ zforce*
+ zgrep*
+ zipgrep*
+ zipinfo.exe*
+ zless*
+ zmore*
+ znew*
 
 ==========
 8.  Type:
@@ -99,35 +555,41 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+You press up twice in order to get to the previous command of $ ls /bin/
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
+$ ls<ENTER>
 
+$ ls /b<TAB><ENTER>
+
+Both of these commands order things algebraically, which is one of many functions of a flag.
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+You use the TAB key in order to autocomplete a command or file name.
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+The main command that we used throughout the exercise was the ls command.
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
+
+One of the arguments that we passed to the command was "Documents"
 
 
 
@@ -139,6 +601,8 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+bash: foo: command not found
+
 
 
 ==========
@@ -149,7 +613,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -158,3 +622,9 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+
+The command is 'ls'
+The flag is '-a'
+The argument is 'Desktop'
+The prompt is '$ ls -a Desktop'
+
