@@ -10,14 +10,17 @@ Follow the instructions line-by-line.
 ==========
 1. Open a new terminal window.
 ----------
-
+New Terminal window opened
 ==========
 2. Create a directory called mtec1003.
 ----------
 
+Directory called mtec1003 is created
+
 ==========
 3. Change your directory so that you're in mtec1003.
 ----------
+Directory has been changed
 
 ==========
 4. Type:
@@ -31,8 +34,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
-
+/c/Users/angel/Rough Draft 2/Assets/mtec1003
 ==========
 5. Type:
 
@@ -42,6 +44,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals/
 
 
 ==========
@@ -53,7 +56,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  food/  
 
 ==========
 7. Type:
@@ -64,7 +67,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  foo/  food/  
 
 ==========
 8. Type:
@@ -75,7 +78,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/angel/Rough Draft 2/Assets/mtec 1003/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -85,8 +88,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/c/Users/angel/Rough Draft 2/Assets/mtec1003/foo/bar/baz/qux
 
 ==========
 10. Type:
@@ -97,7 +99,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/angel/Rough Draft 2/Assets/mtec1003/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -108,8 +110,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
+/c/Users/angel/Rough Draft 2/Assets/mtec1003
 ==========
 12. Type:
 
@@ -119,7 +120,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+foo/
+food/
 
 
 ==========
@@ -131,7 +133,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/angel
 
 ==========
 14. Type:
@@ -142,7 +144,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/angel
 
 ==========
 15. Type:
@@ -153,7 +155,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/angel
 
 ==========
 15. Type:
@@ -164,13 +166,13 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/angel
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+$ cd
 
 ==========
 16b. If you're not in the right directory, type the following command:
@@ -193,7 +195,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+$ mkdir 
 
 ==========
 18. Make another directory called aardvark.  
@@ -201,7 +203,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+$ mkdir
 
 ==========
 19. List the files and directories in the current directory using the long format.  
@@ -209,7 +211,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+February 23, 2022
 
 ==========
 20. Make 3 directories nested within each other:
@@ -221,7 +223,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+$ mkdir -p
 
 ==========
 21. Change your directory so that you're in the inner most directory (baz)
@@ -229,51 +231,55 @@ What command did you use?
 What command did you use?
 ----------
 
-
+$ cd /foo
+$ pwd
 
 ==========
 22. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+$ cd ../..
 
 ==========
 23. What command is used to delete empty directories?
 ----------
 
-
+$ rmdir
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
 
-
+$ pwd
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
 
-
+You would use this flag: l
 
 ==========
 26. What's the shortcut for home directory?
 ----------
 
+This is the shortcut: ~
 
 
 ==========
 27. What's a pathname?
 ----------
 
-
+A pathname is essentially the location in the file system. The name speaks for itself and is the name of the path.
 
 ==========
 28. What's a directory?
 ----------
 
-
+A directory is what the filesystem uses to organize the files. It is the basic construct of organizing files.
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+/Users/angel/Downloads
